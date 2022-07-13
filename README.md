@@ -3,12 +3,17 @@
 In recent years, Convolutional Neural Network(CNN) is popular and widely used in computer vision tasks, and many related applications and datasets are proposed. In the final project, I aimed to propose an application that predicts human ages, which is interesting and useful in the real world. I used 3 human face datasets to train the convolutional neural network models that predicted human ages based on the face images. In addition, I improved the model architecture and evaluated accuracies between different datasets and model architectures. Lastly, I used the OpenCV package to implement the real-time age-guesser application.
 ## Age Guesser Application
 I used the OpenCV package to build the real-time age guesser application. Firstly, I used the VideoCapture in OpenCV to capture frames from the webcam in real-time. Secondly, I used the face detection model provided by OpenCV to get the bounding boxes of faces. Note that the detection model can detect multiple faces in a single frame, thus, I may get multiple bounding boxes. Then, I cropped the face images in bounding boxes from the frame and resized the face images to the input size of our age guesser model. Lastly, I used the model to predict the ages of face images and showed the predicted ages on the screen.
-* 1. Predicting face accurately
+## Predicting face accurately
 * In most of the test cases, the model could predict human ages accurately 
-![Variable Declaration](/img/face1.png)
-* 2. Predicting multiple faces’ ages in a frame
-* Our application can detect multiple faces in a frame
+* ![Variable Declaration](/img/face1.png)
+## Predicting multiple faces’ ages in a frame
 ![Variable Declaration](/img/face2.png)
+## Get start!
+* 1.Get a frame from the webcam
+* 2.Use provided face detection model to get the bounding box of face.
+* 3.Crop and resize the face image from the frame.
+* 4.Use the model to predict the age.
+
 ## Methods:
 ## A. Datasets
 * 1. The OUI-Audience Face Image Project
