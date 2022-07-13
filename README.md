@@ -22,10 +22,10 @@ Regulate the distribution ratio of each label by sampling the fixed number of im
 ![Variable Declaration](/img/model2.png)
 ## Age Guesser Application
 I used the OpenCV package to build the real-time age guesser application. Firstly, I used the VideoCapture in OpenCV to capture frames from the webcam in real-time. Secondly, I used the face detection model provided by OpenCV to get the bounding boxes of faces. Note that the detection model can detect multiple faces in a single frame, thus, I may get multiple bounding boxes. Then, I cropped the face images in bounding boxes from the frame and resized the face images to the input size of our age guesser model. Lastly, I used the model to predict the ages of face images and showed the predicted ages on the screen.
-1. Predicting face accurately
+* 1. Predicting face accurately
 In most of the test cases, our model could predict human ages accurately. 
 ![Variable Declaration](/img/face1.png)
-2. Predicting multiple faces’ ages in a frame
+* 2. Predicting multiple faces’ ages in a frame
 Our application can detect multiple faces in a frame and predict ages of faces. 
 ![Variable Declaration](/img/face2.png)
 ## Results and Accuracies
