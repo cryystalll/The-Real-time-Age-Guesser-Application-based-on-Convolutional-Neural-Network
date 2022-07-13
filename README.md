@@ -13,7 +13,7 @@ I used the OpenCV package to build the real-time age guesser application. Firstl
 * 2.Use provided face detection model to get the bounding box of face.
 * 3.Crop and resize the face image from the frame.
 * 4.Use the model to predict the age.
-
+* ![Variable Declaration](/img/start.png)
 ## Methods:
 ## A. Datasets
 * 1. The OUI-Audience Face Image Project
