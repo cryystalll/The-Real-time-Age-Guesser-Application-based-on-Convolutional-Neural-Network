@@ -7,7 +7,7 @@ I used 3 human face datasets to train the convolutional neural network models th
 In addition, I improved the model architecture and evaluated accuracies between different datasets and model architectures.
 Lastly, I used the OpenCV package to implement the real-time age-guesser application.
 ```
-## Age Guesser Application Build By OpenCV
+## Age Guesser Application With OpenCV
 ```
 I used the OpenCV package to build the real-time age guesser application. 
 Firstly, I used the VideoCapture in OpenCV to capture frames from the webcam in real-time. 
