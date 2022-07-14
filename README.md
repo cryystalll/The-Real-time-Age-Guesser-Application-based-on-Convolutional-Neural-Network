@@ -2,7 +2,7 @@
 ## Abstract:
 ```
 In recent years, Convolutional Neural Network(CNN) is popular and widely used in computer vision tasks, and many related applications and datasets are proposed. 
-In the final project, I aimed to propose an application that predicts human ages, which is interesting and useful in the real world. 
+I aimed to propose an application that predicts human ages, which is interesting and useful in the real world. 
 I used 3 human face datasets to train the convolutional neural network models that predicted human ages based on the face images. 
 In addition, I improved the model architecture and evaluated accuracies between different datasets and model architectures.
 Lastly, I used the OpenCV package to implement the real-time age-guesser application.
