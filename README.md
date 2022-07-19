@@ -16,7 +16,7 @@ Note that the detection model can detect multiple faces in a single frame, thus,
 Then, I cropped the face images in bounding boxes from the frame and resized the face images to the input size of our age guesser model.
 Lastly, I used the model to predict the ages of face images and showed the predicted ages on the screen.
 ```
-## Predicting face accurately
+## Predicting face accurately : [Age Model](https://drive.google.com/file/d/1jH2YO5393MfuEFIlaEe_o2f2p0TVTCOM/view?usp=sharing)
 ```
 * In most of the test cases, the model could predict human ages accurately
 ```
